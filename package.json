@@ -1,0 +1,31 @@
+{
+  "name": "kjf-node-express",
+  "version": "1.0.0",
+  "description": "kjf_node_express",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "watch-update": "nodemon --watch src/**/* -e ts,tsx --exec ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyenToretto/kjf-node-express.git"
+  },
+  "keywords": [
+    "node",
+    "kjf",
+    "express"
+  ],
+  "author": "RyenToretto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyenToretto/kjf-node-express/issues"
+  },
+  "homepage": "https://github.com/RyenToretto/kjf-node-express#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
